@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <img src="logo.png" alt="Starbucks logo" />
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">What's New</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <section class="hero-copy">
+        <h1>
+          It's not just Coffee<br />
+          It's <span>Starbucks</span>
+        </h1>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          maxime alias dolor facilis dolore optio totam modi suscipit. Hic iusto
+          in, voluptatum esse praesentium blanditiis necessitatibus eius obcaecati
+          quasi alias.
+        </p>
+
+        <a href="#" class="cta">Learn More</a>
+      </section>
+
+      <section class="hero-visual" aria-label="Featured drink">
+        <div class="pink-panel"></div>
+        <img src="img1.png" class="starbucks" alt="Featured Starbucks drink" />
+
+        <div class="drink-thumbs" aria-label="Choose drink flavor">
+          <div class="thumb-item">
+            <img src="thumb1.png" alt="Green drink" onclick="imgSlider('img1.png'); changeCircleColor('#017143')" />
+          </div>
+          <div class="thumb-item">
+            <img src="thumb2.png" alt="Pink drink" onclick="imgSlider('img2.png'); changeCircleColor('#eb7495')" />
+          </div>
+          <div class="thumb-item">
+            <img src="thumb3.png" alt="Purple drink" onclick="imgSlider('img3.png'); changeCircleColor('#d752b1')" />
+          </div>
+        </div>
+      </section>
+
+      <aside class="socials" aria-label="Social media links">
+        <a href="#"><img src="facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="instagram.png" alt="Instagram" /></a>
+        <a href="#"><img src="twitter.png" alt="Twitter" /></a>
+      </aside>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
